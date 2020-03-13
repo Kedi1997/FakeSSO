@@ -1,0 +1,28 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@using Microsoft.AspNetCore.Identity;
+@inject SignInManager<IdentityUser> signInManager;
+@inject UserManager<IdentityUser> UserManager
+
+@if (signInManager.IsSignedIn(User))
+{
+    <div class="text-center">
+        <h1 class="display-4">Welcome to Service Provider + @User.Identity.Name</h1>
+        <a asp-controller="Saml" asp-action="InitiatedSingleLogout" class="btn btn-primary btn-dark">Log out</a>
+    </div>
+}
+else
+{
+    <div class="text-center">
+        <h1 class="display-4">Welcome to Service Provider</h1>
+        <p>
+            <a asp-controller="Saml" asp-action="InitiateSingleSignOn" class="btn btn-primary btn-dark">Login through SSO</a>
+        </p>
+    </div>
+}
+
+

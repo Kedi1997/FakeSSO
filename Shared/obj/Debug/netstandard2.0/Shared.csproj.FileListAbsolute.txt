@@ -1,0 +1,8 @@
+C:\Users\pengkedi\source\repos\FakeSSO\Shared\bin\Debug\netstandard2.0\Shared.deps.json
+C:\Users\pengkedi\source\repos\FakeSSO\Shared\bin\Debug\netstandard2.0\Shared.dll
+C:\Users\pengkedi\source\repos\FakeSSO\Shared\bin\Debug\netstandard2.0\Shared.pdb
+C:\Users\pengkedi\source\repos\FakeSSO\Shared\obj\Debug\netstandard2.0\Shared.AssemblyInfoInputs.cache
+C:\Users\pengkedi\source\repos\FakeSSO\Shared\obj\Debug\netstandard2.0\Shared.AssemblyInfo.cs
+C:\Users\pengkedi\source\repos\FakeSSO\Shared\obj\Debug\netstandard2.0\Shared.dll
+C:\Users\pengkedi\source\repos\FakeSSO\Shared\obj\Debug\netstandard2.0\Shared.pdb
+C:\Users\pengkedi\source\repos\FakeSSO\Shared\obj\Debug\netstandard2.0\Shared.csprojAssemblyReference.cache

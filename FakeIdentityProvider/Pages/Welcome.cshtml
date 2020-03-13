@@ -1,0 +1,14 @@
+﻿@page
+@model FakeIdentityProvider.WelcomeModel
+@{
+    ViewData["Title"] = "Welcome";
+}
+
+<div class="text-center">
+    <h2 class="display-4">Welcome to the Identity Provider</h2>
+
+    <p>
+        <a asp-controller="Saml" asp-action="InitialSigleSignOn" class="btn btn-primary btn-dark">Login to SP through SSO</a>
+    </p>
+</div>
+
